@@ -17,7 +17,7 @@ public class PrimitiveTypes {
 			System.out.println( "Hi, you're " + years + " old " );
 		}
 
-		var totalPayment = 6200; // this primitive var declaration should be changed, it might be necessary to make a little change
+		var totalPayment = 6200d; // this primitive var declaration should be changed, it might be necessary to make a little change
 		var days = 85; // this primitive var declaration should be changed
 
 		var value = totalPayment / days;  // this primitive var declaration should be changed
