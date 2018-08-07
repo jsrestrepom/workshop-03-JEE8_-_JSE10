@@ -51,9 +51,9 @@ public class Java10var {
 	}
 
 	public void printTimes() {
-		LocalDateTime localDateTimeAraucaColombia = LocalDateTime.now( zoneIdAraucaColombia );
-		LocalDateTime localDateTimeIstanbulTurkey = LocalDateTime.now( zoneIdIstanbulTurkey );
-		LocalDateTime localDateTimeLondoUK = LocalDateTime.now( zoneIdLondonUK );
+		var localDateTimeAraucaColombia = LocalDateTime.now( zoneIdAraucaColombia );
+		var localDateTimeIstanbulTurkey = LocalDateTime.now( zoneIdIstanbulTurkey );
+		var localDateTimeLondoUK = LocalDateTime.now( zoneIdLondonUK );
 
 		System.out.println( "Current time in Arauca - Colombia is: " + localDateTimeAraucaColombia );
 		System.out.println( "Current time in Istanbul - Turkey is: " + localDateTimeIstanbulTurkey );
