@@ -38,7 +38,7 @@ public class Java10var {
 		printNumbers();
 	}
 
-	public var average(var numberss) {
+	public Double average(List<Long> numberss) {
 		var average = 0D;
 		var sum = numberss.stream().mapToDouble( p -> p ).sum();
 		average = sum / numberss.size();
