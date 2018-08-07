@@ -74,7 +74,7 @@ public class Java10var {
 	}
 
 	public static void printNumbers() {
-		List<String> myList = new ArrayList<>();
+		var myList = new ArrayList<>();
 		myList.addAll( List.of("ONE","TWO","THREE","FIVE","SEVEN", "ELEVEN", "THIRTEEN", "SEVENTEEN" ) );
 
 		System.out.println( myList );
