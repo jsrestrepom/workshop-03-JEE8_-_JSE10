@@ -4,8 +4,8 @@ public class PrimitiveTypes {
 
 	public static void main(String[] args) {
 
-		var years = 37; // this primitive var declaration was be changed
-		var gender = 'M'; // this primitive var declaration was be changed
+		var years = 37; // this primitive var declaration was changed
+		var gender = 'M'; // this primitive var declaration was changed
 
 		if ( gender == 'M' ) {
 			System.out.println( "Hi Mister, you're " + years + " old " );
@@ -17,10 +17,10 @@ public class PrimitiveTypes {
 			System.out.println( "Hi, you're " + years + " old " );
 		}
 
-		var totalPayment = 6200d; // this primitive var declaration was be changed
-		var days = 85; // this primitive var declaration was be changed
+		var totalPayment = 6200d; // this primitive var declaration was changed
+		var days = 85; // this primitive var declaration was changed
 
-		var value = totalPayment / days;  // this primitive var declaration was be changed
+		var value = totalPayment / days;  // this primitive var declaration was changed
 
 		System.out.println( "Last month you earned $ " + value + " per day " );
 
