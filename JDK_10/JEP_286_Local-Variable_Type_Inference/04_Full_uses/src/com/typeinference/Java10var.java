@@ -61,15 +61,14 @@ public class Java10var {
 	}
 
 	public static void printMonth() {
-		int monthValue = LocalDate.now().getMonthValue();
-		String monthName;
+		var monthValue = LocalDate.now().getMonthValue();
 
-		Map<Integer, String> months = new HashMap<>();
-		for(Month month:Month.values()){
+		var months = new HashMap<>();
+		for(var month:Month.values()){
 			months.put( month.getValue(), month.name() );
 		}
 
-		monthName = months.get( monthValue );
+		var monthName = months.get( monthValue );
 
 		System.out.println( "monthName: " + monthName );
 	}
