@@ -4,8 +4,8 @@ public class PrimitiveTypes {
 
 	public static void main(String[] args) {
 
-		var years = 37; // this primitive var declaration should be changed
-		var gender = 'M'; // this primitive var declaration should be changed
+		var years = 37; // this primitive var declaration was be changed
+		var gender = 'M'; // this primitive var declaration was be changed
 
 		if ( gender == 'M' ) {
 			System.out.println( "Hi Mister, you're " + years + " old " );
@@ -17,16 +17,16 @@ public class PrimitiveTypes {
 			System.out.println( "Hi, you're " + years + " old " );
 		}
 
-		var totalPayment = 6200d; // this primitive var declaration should be changed, it might be necessary to make a little change
-		var days = 85; // this primitive var declaration should be changed
+		var totalPayment = 6200d; // this primitive var declaration was be changed
+		var days = 85; // this primitive var declaration was be changed
 
-		var value = totalPayment / days;  // this primitive var declaration should be changed
+		var value = totalPayment / days;  // this primitive var declaration was be changed
 
 		System.out.println( "Last month you earned $ " + value + " per day " );
 
-		for ( var i = 0; i < 10; i++ ) {
+		for ( var i = 0 /* this one too */; i < 10; i++ ) {
 
-			var isEven = i % 2 == 0;
+			var isEven = i % 2 == 0; // this one too
 
 			if ( isEven ) {
 				System.out.println( i + " is an even number " );
