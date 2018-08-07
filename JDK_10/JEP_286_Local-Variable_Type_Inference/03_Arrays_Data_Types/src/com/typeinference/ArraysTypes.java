@@ -5,17 +5,17 @@ import java.util.Random;
 public class ArraysTypes {
 
 	public static void main(String[] args) {
-		String[] animalss = new String[3];
+		var animalss = new String[3];
 
 		animalss[0] = "DOG";
 		animalss[1] = "CAT";
 		animalss[2] = "MOUSE";
 
-		for ( String animal : animalss ) {
+		for ( var animal : animalss ) {
 			System.out.println( animal );
 		}
 
-		String[][] names = new String[][] {
+		var names = new String[][] {
 				{ "Mr. ", "Mrs. ", "Ms. " },
 				{ "Bean", "Krabappel" }
 		};
@@ -27,7 +27,7 @@ public class ArraysTypes {
 		String msKrabappel = names[0][2] + names[1][1];
 		System.out.println( names[0][2] + names[1][1] );
 
-		Hero[] heroes = new Hero[]{
+		var heroes = new Hero[]{
 				new Hero( "Spiderman" ),
 				new Hero( "Batman" ),
 				new Hero( "American Captain" ),
