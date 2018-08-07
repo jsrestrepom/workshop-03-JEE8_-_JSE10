@@ -7,8 +7,8 @@ public class ObjectTypes {
 
 	public static void main(String[] args) {
 
-		Integer years = 37; // this object var declaration should be changed
-		String gender = "FEMALE"; // this object var declaration should be changed
+		var years = 37; // this object var declaration was be changed
+		var gender = "FEMALE"; // this object var declaration was be changed
 
 		if ( gender.equals( "MALE" ) ) {
 			System.out.println( "Hi Mister, you're " + years + " old " );
@@ -20,15 +20,15 @@ public class ObjectTypes {
 			System.out.println( "Hi, you're " + years + " old " );
 		}
 
-		Double totalPayment = 6200D; // this object var declaration should be changed, it might be necessary to make a little change
-		Long days = 85L; // this object var declaration should be changed, it might be necessary a little trick
+		var totalPayment = 6200D; // this object var declaration was be changed, it might be necessary to make a little change
+		var days = 85L; // this object var declaration was be changed, it might be necessary a little trick
 
-		Double value = totalPayment / days;  // this object var declaration should be changed
+		var value = totalPayment / days;  // this object var declaration was be changed
 
 		System.out.println( "Last month you earned $ " + value + " per day " );
 
-		Book theLordOfTheRings = new Book("The Lord Of The Rings", 19.99);
-		Store centralPark = new Store( "Central Park");
+		var theLordOfTheRings = new Book("The Lord Of The Rings", 19.99);
+		var centralPark = new Store( "Central Park");
 
 		System.out.println( "Your favorite book " + theLordOfTheRings + ", is available in our store " + centralPark.getName() );
 
