@@ -46,8 +46,7 @@ public class Java10var {
 	}
 
 	public Long getFirst(List<Long> numberss) {
-		var first;
-		first = numberss.get( 0 );
+		var first = numberss.get( 0 );
 		return first;
 	}
 
